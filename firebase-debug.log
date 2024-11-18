@@ -1,0 +1,46 @@
+[debug] [2024-11-13T09:43:15.152Z] ----------------------------------------------------------------------
+[debug] [2024-11-13T09:43:15.156Z] Command:       /Users/uncommonstudent/.nvm/versions/node/v20.18.0/bin/node /Users/uncommonstudent/.nvm/versions/node/v20.18.0/bin/firebase init
+[debug] [2024-11-13T09:43:15.156Z] CLI Version:   13.25.0
+[debug] [2024-11-13T09:43:15.157Z] Platform:      darwin
+[debug] [2024-11-13T09:43:15.157Z] Node Version:  v20.18.0
+[debug] [2024-11-13T09:43:15.157Z] Time:          Wed Nov 13 2024 11:43:15 GMT+0200 (Central Africa Time)
+[debug] [2024-11-13T09:43:15.157Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2024-11-13T09:43:15.165Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2024-11-13T09:43:15.166Z] > authorizing via signed-in user (rumbidzaidumbu@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  /Users/uncommonstudent/Desktop/online-events
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2024-11-13T09:43:26.944Z] Checked if tokens are valid: true, expires at: 1731494456521
+[debug] [2024-11-13T09:43:26.945Z] Checked if tokens are valid: true, expires at: 1731494456521
+[debug] [2024-11-13T09:43:26.949Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects pageSize=100
+[debug] [2024-11-13T09:43:28.131Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects 200
+[debug] [2024-11-13T09:43:28.131Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects [omitted]
+[info] i  Using project online-events-99670 (online-events) 
+[info] 
+=== Hosting Setup
+[debug] [2024-11-13T09:43:35.945Z] Checked if tokens are valid: true, expires at: 1731494456521
+[debug] [2024-11-13T09:43:35.945Z] Checked if tokens are valid: true, expires at: 1731494456521
+[debug] [2024-11-13T09:43:35.946Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/online-events-99670 [none]
+[debug] [2024-11-13T09:43:36.540Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/online-events-99670 200
+[debug] [2024-11-13T09:43:36.540Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/online-events-99670 {"projectId":"online-events-99670","projectNumber":"645741106692","displayName":"online-events","name":"projects/online-events-99670","resources":{"hostingSite":"online-events-99670"},"state":"ACTIVE","etag":"1_3f0747f9-7dc9-42ea-8cdc-be2cd637da76"}
+[info] 
+[info] Your public directory is the folder (relative to your project directory) that
+[info] will contain Hosting assets to be uploaded with firebase deploy. If you
+[info] have a build process for your assets, use your build's output directory.
+[info] 
